@@ -1,9 +1,83 @@
 <!DOCTYPE html>
+<!-- 1. The basic HTML template: <html>, <head>, <title>, <meta>, and <body> tags: CHECKED -->
+<!-- 2. At least two different header tags: any two from <h1>, <h2>, <h3>, <h4>, <h5> and <h6>: CHECKED -->
+<!-- 3. At least one of each of the following non-closing tags: <br>, <hr>: CHECKED-->
+<!-- 4. At least one <img> tag: If you do not have a presentable image of yourself ready, you may
+use any random image. You will eventually need an image of yourself for portfolio
+project: CHECKED -->
 <html>
 	<head>
-		<title>This is a test title</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Thien Phuoc Hoang">
+		<meta name="description" content="This is an index page of my personal website">
+		<title>Welcome to Thien Phuoc Hoang's personal website</title>
+		<style>
+		.headerStyle
+		{
+			border: 3px outset green;
+			background-color: #C0C0C0;
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+			padding-left: 5px;
+		}
+		.headerAlign
+		{
+			display: flex;
+			justify-content: space-between;
+		}
+		.headerAlign h5
+		{
+			margin-left: auto;
+		}
+		.refLinkStyle
+		{
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+			padding-left: 5px;
+		}
+		.summaryAlign
+		{
+			display: flex;
+			position: relative;
+			margin-top: 50px;
+			margin-right: 50px;
+			margin-bottom: 50px;
+			margin-left: 50px;
+		}
+		.leftSummaryAlign
+		{
+			width: 100%;
+			column-width: 460px;
+			column-flex: 460;
+		}
+		</style>
 	</head>
 	<body>
-
+		<div class="headerStyle">
+			<div class = "headerAlign">
+				<img src ="https://static.wixstatic.com/media/e1d088_3ae32d0a1e744c9a9aa21f0e67506c2f~mv2.jpg/v1/fill/w_84,h_84,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/welcome.jpg">
+				<h1>Thien Phuoc Hoang</h1>
+				<h5>Email: thienphuoc.hoang@student.sl.on.ca<br>Phone: +1 (xxx) xxx-xxxx</h5>
+			</div>
+		</div>
+		<hr>
+		<div class="refLinkStyle">
+			<table border ="0" cellpadding="10" align="right">
+				<tr>
+					<td>HOME</td>
+					<td>PORTFOLIO</td>
+					<td>ABOUT</td>
+				</tr>
+			</table>
+		</div>
+		<div class = "summaryAlign">
+			<div>
+				<h2 style="font-size: 70px; font-weight: bold; color: #4DA69A; text-align: center;">SUMMARY</h2>
+				<p align="center">I have a huge passion in both contrary fields: programming and art. Throughout my current job, I have gained a lot of experiences in solving problems, analytical skills, coding and artistic eyes. There is lots of benefits while working as a technical supervisor, I have adept at 3D graphics tool development and working with various software and programming languages.. Feel free to browse through my portfolio and get in touch if you have a project in mind that you’d like to explore together.</p>
+			</div>
+		</div>
 	</body>
 </html>
