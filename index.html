@@ -41,17 +41,20 @@ project: CHECKED -->
 		.summaryAlign
 		{
 			display: flex;
-			position: relative;
 			margin-top: 50px;
 			margin-right: 50px;
 			margin-bottom: 50px;
-			margin-left: 50px;
+			margin-left: 200px;
 		}
 		.leftSummaryAlign
 		{
-			width: 100%;
-			column-width: 460px;
-			column-flex: 460;
+			max-width: 460px;
+			align: left;
+		}
+		.rightSummaryAlign
+		{
+			align: right;
+			padding: 100px;
 		}
 		</style>
 	</head>
@@ -69,14 +72,17 @@ project: CHECKED -->
 				<tr>
 					<td>HOME</td>
 					<td>PORTFOLIO</td>
-					<td>ABOUT</td>
+					<td>CONTACT</td>
 				</tr>
 			</table>
 		</div>
 		<div class = "summaryAlign">
-			<div>
-				<h2 style="font-size: 70px; font-weight: bold; color: #4DA69A; text-align: center;">SUMMARY</h2>
-				<p align="center">I have a huge passion in both contrary fields: programming and art. Throughout my current job, I have gained a lot of experiences in solving problems, analytical skills, coding and artistic eyes. There is lots of benefits while working as a technical supervisor, I have adept at 3D graphics tool development and working with various software and programming languages.. Feel free to browse through my portfolio and get in touch if you have a project in mind that you’d like to explore together.</p>
+			<div class ="leftSummaryAlign">
+				<h2 style="font-size: 70px; font-weight: bold; color: #4DA69A; text-align: left;">SUMMARY</h2>
+				<p align="left" style="font-size: 20px; text-align: justify;">I have a huge passion in both contrary fields: programming and art. Throughout my current job, I have gained a lot of experiences in solving problems, analytical skills, coding and artistic eyes. There is lots of benefits while working as a technical supervisor, I have adept at 3D graphics tool development and working with various software and programming languages.. Feel free to browse through my portfolio and get in touch if you have a project in mind that you’d like to explore together.</p>
+			</div>
+			<div class ="rightSummaryAlign">
+				<img src="https://static.wixstatic.com/media/e1d088_89050bdb96fc442d8ed87e1b38c9726a~mv2.png/v1/fill/w_295,h_295,al_c,lg_1,q_85,enc_auto/b.png" style="float: right;">
 			</div>
 		</div>
 	</body>
