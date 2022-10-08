@@ -1,0 +1,96 @@
+.headerStyle
+{
+	border: 3px outset green;
+	background-color: #C0C0C0;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.headerAlign
+{
+	display: flex;
+	justify-content: space-between;
+}
+h5
+{
+	margin-left: auto;
+}
+.refLinkStyle
+{
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.leftSummaryAlign
+{
+	align: left;
+}
+.rightSummaryAlign
+{
+	align: right;
+	padding-top: 4%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.experienceAlign
+{
+	display: flex;
+	justify-content: space-between;
+}
+li
+{
+	font-size: 17px;
+}
+h3
+{
+	font-size: 25px;
+	color: white;
+}
+#educationTableStyle th, #educationTableStyle td
+{
+	border: 1px solid black;
+}
+.picture
+{
+	width: 620px;
+}
+.experience
+{
+	max-height: 908px;
+}
+.skills
+{
+	padding-left: 40px;
+	height: 908px;
+}
+.inspirationalImage
+{
+	width: 150px;
+	height: 150px
+}
+.inspirationalImageRect
+{
+	height: 200px
+}
+.greenBackGround
+{
+	background-color: #4DA69A;
+	margin-left: 15px;
+}
+.educationDivision
+{
+	background-color: #E9C9FF;
+}
+.experienceDivision
+{
+	background-color: #F2FFD7;
+}
+.roundedCornerImage
+{
+	border-radius: 50px;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}

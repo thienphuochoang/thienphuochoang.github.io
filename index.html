@@ -6,72 +6,28 @@
 		<meta name="author" content="Thien Phuoc Hoang">
 		<meta name="description" content="This is an index page of my personal website">
 		<title>Welcome to Thien Phuoc Hoang's personal website</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 		<style>
-		.headerStyle
-		{
-			border: 3px outset green;
-			background-color: #C0C0C0;
-			padding-top: 5px;
-			padding-right: 5px;
-			padding-bottom: 5px;
-			padding-left: 5px;
-		}
-		.headerAlign
-		{
-			display: flex;
-			justify-content: space-between;
-		}
-		.headerAlign h5
-		{
-			margin-left: auto;
-		}
-		.refLinkStyle
-		{
-			padding-top: 5px;
-			padding-right: 5px;
-			padding-bottom: 5px;
-			padding-left: 5px;
-		}
-		.mainBodyAlign
-		{
-			display: flex;
-			justify-content: space-between;
-			margin-top: 10%;
-			margin-right: 10%;
-			margin-bottom: 10%;
-			margin-left: 20%;
-		}
-		.leftSummaryAlign
-		{
-			align: left;
-		}
-		.rightSummaryAlign
-		{
-			align: right;
-			padding-top: 4%;
-			padding-left: 20%;
-			padding-right: 20%;
-		}
-		.experienceAlign
-		{
-			display: flex;
-			justify-content: space-between;
-		}
-		.mainBodyAlign li
-		{
-			color: white;
-			text-align: justify;
-			padding-right: 70px;
-			padding-bottom: 10px;
-		}
-		#educationTableStyle, #educationTableStyle th, #educationTableStyle td
-		{
-			border: 1px solid black;
-		}
-		li
-		{
-			font-size: 17px;
-		}
+			.mainBodyAlign
+			{
+				display: flex;
+				justify-content: space-between;
+				margin-top: 10%;
+				margin-right: 10%;
+				margin-bottom: 10%;
+				margin-left: 20%;
+			}
+			#educationTableStyle
+			{
+				border: 1px solid black;
+			}
+			.mainBodyAlign li
+			{
+				color: white;
+				text-align: justify;
+				padding-right: 70px;
+				padding-bottom: 10px;
+			}
 		</style>
 	</head>
 	<body>
@@ -102,75 +58,79 @@
 			</div>
 		</div>
 
-		<div class = "mainBodyAlign">
-			<table id ="educationTableStyle" style="width:1145px; ">
-				<tr style = "background-color: #4DA69A;">
-					<th colspan="2"><h1 style="font-size: 50px; font-weight: bold; color: white;">Education</h1></th>
-				</tr>
-				<tr>
-					<th rowspan="3" style = "width: 400px;"><h2 style = "text-align: center; padding-left: 20px;">Auckland University of Science</h2><img src="https://www.bbceducation.in/wp-content/uploads/2019/02/aut-logo.png" style="width: 150px"></th>
-					<td><p>2013 - 2017</p></td>
-				</tr>
-				<tr>
-					<td><p>Bachelor of Computer and Information Science</p></td>
-				</tr>
-				<tr>
-					<td><p>Field: Computer Science</p></td>
-				</tr>
-				<tr>
-					<th rowspan="3" style = "width: 400px;"><h2 style = "text-align: center; padding-left: 20px;">Saint Lawrence College</h2><img src="https://media.glassdoor.com/sqll/2577448/st-lawrence-college-squarelogo-1583412191888.png" style="width: 150px"></th>
-					<td><p>2022 - 2024</p></td>
-				</tr>
-				<tr>
-					<td><p>Ontario College Diploma</p></td>
-				</tr>
-				<tr>
-					<td><p>Field: Game Programming</p></td>
-				</tr>
-			</table>
-		</div>
-
-		<div class = "mainBodyAlign">
-			<div class ="experienceAlign">
-				<img src="https://static.wixstatic.com/media/67cc671703ec43cc8b9b1b35153fdb56.jpg/v1/fill/w_949,h_1815,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/67cc671703ec43cc8b9b1b35153fdb56.jpg" style="max-height: 908px;">
-			</div>
-			<div style="background-color: #7F90FF; padding-left: 30px; margin-right: 12%;">
-				<h1 style="font-size: 40px; color: white">Glass Egg Digital Media</h1>
-				<h3 style="font-size: 25px; color: white">September 2017 – August 2022</h3>
-				<li>Understand the workflow of a project, read the documents and requirements, offer solutions and discuss with the customers.</li>
-				<li>Training some technical required skills and tools for artists</li>
-				<li>Writing tools for artists and projects to shorten stages and ensure the best quality of the final products.</li>
-				<li>Improve and optimize workflow pipeline while ensuring to keep the most suitable quality</li>
-				<li>Write technical check list</li>
-				<li>All of my projects in company related to game projects so I have experience in using game engine software.</li>
-				<li>Communicate with clients to discuss and resolve some issues or problems which happens during project process.</li>
-				<li>Document workflow pipeline and hands-on support artists.</li>
+		<div class = "educationDivision">
+			<div class = "mainBodyAlign" style="background-color: white;">
+				<table id ="educationTableStyle" style="width:1145px; ">
+					<tr style = "background-color: #4DA69A;">
+						<th colspan="2"><h1 style="font-size: 50px; font-weight: bold; color: white;">Education</h1></th>
+					</tr>
+					<tr>
+						<th rowspan="3" style = "width: 400px;"><h2 style = "text-align: center; padding-left: 20px;">Auckland University of Science</h2><img src="https://www.bbceducation.in/wp-content/uploads/2019/02/aut-logo.png" style="width: 150px"></th>
+						<td><p>2013 - 2017</p></td>
+					</tr>
+					<tr>
+						<td><p>Bachelor of Computer and Information Science</p></td>
+					</tr>
+					<tr>
+						<td><p>Field: Computer Science</p></td>
+					</tr>
+					<tr>
+						<th rowspan="3" style = "width: 400px;"><h2 style = "text-align: center; padding-left: 20px;">Saint Lawrence College</h2><img src="https://media.glassdoor.com/sqll/2577448/st-lawrence-college-squarelogo-1583412191888.png" style="width: 150px"></th>
+						<td><p>2022 - 2024</p></td>
+					</tr>
+					<tr>
+						<td><p>Ontario College Diploma</p></td>
+					</tr>
+					<tr>
+						<td><p>Field: Game Programming</p></td>
+					</tr>
+				</table>
 			</div>
 		</div>
 
-		<div class = "mainBodyAlign">
-			<div class ="experienceAlign">
-				<div style="padding-left: 0px;">
-					<h1 style="font-size: 50px; color: #4DA69A; text-align: center; padding-left: 10px;">Technical Skills</h1>
-					<br><br>
-					<h2 style="font-size: 35px; color: #4DA69A; text-align: center;">Software</h2>
-					<p style="font-size: 25px; text-align: center;">Maya / 3DSMax / Houdini / Photoshop / Substance Designer</p>
-					<br><br>
-					<h2 style="font-size: 35px; color: #4DA69A; text-align: center;">Programming Languages</h2>
-					<p style="font-size: 25px; text-align: center;">Python / Maxscript / C# / HLSL</p>
-					<br><br>
-					<h2 style="font-size: 35px; color: #4DA69A; text-align: center;">Game Engine</h2>
-					<p style="font-size: 25px; text-align: center;">Unity / Unreal Engine</p>
+		<div class = "experienceDivision">
+			<div class = "mainBodyAlign">
+				<div class ="experienceAlign">
+					<img class = "experience" src="https://static.wixstatic.com/media/67cc671703ec43cc8b9b1b35153fdb56.jpg/v1/fill/w_949,h_1815,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/67cc671703ec43cc8b9b1b35153fdb56.jpg">
 				</div>
-					<img src="https://static.wixstatic.com/media/nsplsh_47493168774f4771477445~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_949,h_1703,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_47493168774f4771477445~mv2_d_6000_4000_s_4_2.jpg" style="width: 620px; height: 908px; padding-left: 40px;">
+				<div style="background-color: #7F90FF; padding-left: 30px; margin-right: 12%;">
+					<h1 style="font-size: 40px; color: white">Glass Egg Digital Media</h1>
+					<h3>September 2017 – August 2022</h3>
+					<li>Understand the workflow of a project, read the documents and requirements, offer solutions and discuss with the customers.</li>
+					<li>Training some technical required skills and tools for artists</li>
+					<li>Writing tools for artists and projects to shorten stages and ensure the best quality of the final products.</li>
+					<li>Improve and optimize workflow pipeline while ensuring to keep the most suitable quality</li>
+					<li>Write technical check list</li>
+					<li>All of my projects in company related to game projects so I have experience in using game engine software.</li>
+					<li>Communicate with clients to discuss and resolve some issues or problems which happens during project process.</li>
+					<li>Document workflow pipeline and hands-on support artists.</li>
+				</div>
+			</div>
+
+			<div class = "mainBodyAlign">
+				<div class ="experienceAlign">
+					<div style="padding-left: 0px;">
+						<h1 style="font-size: 50px; color: #4DA69A; text-align: center; padding-left: 10px;">Technical Skills</h1>
+						<br><br>
+						<h2 style="font-size: 35px; color: #4DA69A; text-align: center;">Software</h2>
+						<p style="font-size: 25px; text-align: center;">Maya / 3DSMax / Houdini / Photoshop / Substance Designer</p>
+						<br><br>
+						<h2 style="font-size: 35px; color: #4DA69A; text-align: center;">Programming Languages</h2>
+						<p style="font-size: 25px; text-align: center;">Python / Maxscript / C# / HLSL</p>
+						<br><br>
+						<h2 style="font-size: 35px; color: #4DA69A; text-align: center;">Game Engine</h2>
+						<p style="font-size: 25px; text-align: center;">Unity / Unreal Engine</p>
+					</div>
+						<img class = "picture skills" src="https://static.wixstatic.com/media/nsplsh_47493168774f4771477445~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_949,h_1703,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_47493168774f4771477445~mv2_d_6000_4000_s_4_2.jpg">
+				</div>
 			</div>
 		</div>
 
 		<div class = "mainBodyAlign">
 			<div class ="leftSummaryAlign">
-				<h3 style="font-size: 40px; font-weight: bold; color: #4DA69A; text-align: left">My Inspirational Quotes From Famous Game Developers</h3>
+				<h2 style="font-size: 40px; font-weight: bold; color: #4DA69A; text-align: left">My Inspirational Quotes From Famous Game Developers</h2>
 				<div class ="experienceAlign">
-					<img src="https://static01.nyt.com/images/2015/07/14/business/14Iwata-obit/14Iwata-obit-superJumbo.jpg" style="width: 150px; height: 200px">&emsp;
+					<img src="https://static01.nyt.com/images/2015/07/14/business/14Iwata-obit/14Iwata-obit-superJumbo.jpg" class = "inspirationalImage inspirationalImageRect">&emsp;
 					<p><q>On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.</q><br><br> -Satoru Iwata</p>
 				</div>
 				<br><br>
@@ -178,11 +138,11 @@
 					<blockquote>
 						<p>"A lot of indie developers who became 'Overnight Successes' were working at it for ten years."<br><br>-Dan Adelman</p>
 					</blockquote>
-					<img src="https://pbs.twimg.com/profile_images/1322319258936778752/EdE5jp0W_400x400.jpg" style="width: 150px; height: 150px">
+					<img src="https://pbs.twimg.com/profile_images/1322319258936778752/EdE5jp0W_400x400.jpg" class = "inspirationalImage">
 				</div>
 				<br><br>
 				<div class ="experienceAlign">
-					<img src="https://media.pocketgamer.biz/2014/9/21109/bossa-studios-imre-jele-r225x.jpg" style="width: 150px; height: 150px">
+					<img src="https://media.pocketgamer.biz/2014/9/21109/bossa-studios-imre-jele-r225x.jpg" class = "inspirationalImage">
 					<pre>
 						<p>  "You can make an amazing game, but 
   you can't make a success.
@@ -195,7 +155,7 @@
 					<h3><a href ="https://www.gameskinny.com/0h8er/7-inspirational-quotes-from-game-developers#:~:text=%22You%20can%20make%20an%20amazing,Your%20players%20make%20the%20success.%22&text=According%20to%20these%20words%20of,gamers%20feel%20about%20the%20game.">Click here for the sources</a></h3>
 				</div>
 			</div>
-			<div class="rightSummaryAlign" style="background-color: #4DA69A; margin-left: 15px;">
+			<div class="rightSummaryAlign greenBackGround">
 				<h2 style="font-size: 50px; font-weight: bold; color: white; text-align: left; margin-bottom: 20px; margin-left: 20px; margin-top: 0px;">FAVORITE GAMES</h2>
 				<ol>
 					<li>The Witcher 3.</li>
